@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@
+body{
+	overflow-x: hidden;
+}
+#upload_image_button{
+	position: absolute;
+	top: 60%;
+	left: 120%;
+	min-width: 100px;
+	max-width: 100px;
+	border-radius: 4px;
+	transform: translate(-50%, -50%);
+}
+label{
+	padding: 7px;
+	display: table;
+	color: #fff;
+}
+input[type="file"]{
+	display: none;
+}
+#content{
+	width: 70%;
+}
+#btn-post{
+	font-family:  Source Sans Pro;  
+	font-weight: bolder;
+	position: absolute;
+	left: 70%; 
+}
+#news-feed{
+	border: 1px solid #e6e6e6;
+	padding:10px 10px;
+}
+#posts{
+	border: 1px solid #FDD144;
+	padding: 10px 20px;
+	border-radius: 15px;
+	width: 50%;
+}
+#posts-img{
+	padding-top: 5px;
+	padding-right: 10px;
+	min-width: 102%;
+	max-width: 50%;
+
+}
+#single_posts{
+	border: 5px solid #e6e6e6;
+	padding: 40px 50px;
+
+}
+.pb-cmnt-container{
+	font-family: Lato;
+	margin-top: 100px;	
+}
+.pb-cmnt-textarea{
+	resize: none;
+	padding: 20px;
+	height: 110px;
+	width: 110%;
+	border: 1px solid #F2F2F2;
+}
+#find_people{
+	border: 2px #e6e6e6;
+	padding: 10px 20px;
+}
+#result_posts{
+	border: 5px solid #e6e6e6;
+	padding: 40px 50px;
+}
+form.search_form input[type=text]{
+	padding: 10px;
+	font-size: 17px;
+	border-radius: 4px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+form.search_form button{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+form.search_form button:hover {
+	background: #0b7dda;
+}
+
+form.search_form::after{
+	content: "";
+	clear: both;
+	display: table;
+}
